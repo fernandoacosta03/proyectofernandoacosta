@@ -165,7 +165,10 @@ body {
 
 /* !main Conocenos*/
 
-
+.nuestraEmpresa h2,
+.nuestraEmpresa p {
+  text-align: left;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -195,7 +198,13 @@ body {
     align-items: center;
   }
 
+  .seccionVideo .row {
+    flex-direction: column;
+  }
   
+  .seccionVideo .col-lg-6 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width:992px){
