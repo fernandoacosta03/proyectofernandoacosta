@@ -216,4 +216,283 @@
       margin-top: 60px;
     }
   }
+
+  .tituloConocenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .tituloConocenos h1 {
+    font-size: 2rem;
+    color: #cf7d02;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tituloConocenos img {
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+  }
+  
+  .nuestraEmpresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nuestraEmpresa h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 10px;
+  }
+  
+  .nuestraEmpresa p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .nuestraEmpresa strong {
+    color: black;
+  }
+  
+  .nuestraEmpresa img {
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+  }
+  
+  .seccionVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .seccionVideo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 10px;
+  }
+  
+  .seccionVideo p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .seccionVideo strong {
+    color: black;
+  }
+  
+  .seccionVideo iframe {
+    width: 800px;
+    height: 500px;
+  }
+  
+  ---------------------------------/*Galeria*/----------------------------------------
+  
+  .tituloModelos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .seccionModelos1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos1 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos1 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos1 img {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .seccionModelos2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos2 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos2 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos2 img {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .seccionModelos3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos3 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos3 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos3 img {
+    height: 500px;
+    width: 700px;
+  }
+  
+  .tituloEjecutivos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  }
+  
+  .seccionEjecutivo {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionEjecutivo h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionEjecutivo P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionEjecutivo img {
+    height: 800px;
+    width: 700px;
+  }
+  
+  ------------------------------/*Preguntas frecuentes*/------------------------------------------
+  .seccionTituloFAQ h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .seccionTituloFAQ p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionTituloFAQ img {
+    height: 500px;
+    width: 700px;
+  }
+  
+  .seccionFAQ  div h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  } 
+  
+  .seccionFAQ div p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  ----------------------------------/*contactos*/----------------------------------------
+  
+  .seccionFormulario h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  }
+  
+  .seccionFormulario p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionFormulario h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  }
+  
+  
+  .seccionContactos {
+    width: 100%;
+    height: auto;
+    background-color: rgb(79, 159, 96);
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  .seccionContactos h3 {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .seccionContactos p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .seccionContactos iframe {
+    width: 30%;
+    height: 300px;
+    margin-bottom: 10px;
+  } 
+  
   
