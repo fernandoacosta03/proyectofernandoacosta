@@ -15,21 +15,58 @@
         <title>Contacto - ElitePets</title>
     </head>
     <body>
-        <header>
 
-            <a href="../index.html"> <img  src="../assets/img/logo.png" alt="logo huella de animal" class="logo"> </a>
-            <Strong class="nombrEmpresa"> ElitePet</Strong>
-            <nav>
-                <ul class="menuPrincipal">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./conocenos.html">Conocenos</a></li>
-                    <li><a href="./galeria.html">Galeria</a></li>
-                    <li><a href="./preguntas.html">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+        <!--header-->
 
-        </header>    
+        <header class="">
+            <div class="bg-main">
+                <!--menu hamburger responsive-->
+                <div class="container-lg">
+                    <nav class="navbar navbar-expand-lg navbar-light colorNav">
+                        <div class="container">
+                            <div class="col-lg-5">
+                                <a href="../index.html"><img  src="../assets/img/logo.png" alt="logo huella de animal" class="logo"></a>
+                                <Strong class="tituloPrincipal"> <span class="orange">Elite</span>Pet </Strong>
+                            </div>
+                            
+                            <!--menu hamburger-->
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse col-lg-7 navegacion" id="navbarSupportedContent">
+                                <!---->
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="conocenos.html">Conocenos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link colorVerde" href="contacto.html">Contacto</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>        
+                
+            <!--Banner-->
+            <div class="bannerPrincipal col-lg-12">
+                <img src="../assets/img/banner elitepet.jpg" alt="Banner verde con logo y eslogan" >
+            </div>
+
+        </header>
+
+        <!--Main Contacto-->
         <main>
             <section class="seccionFormulario">
                 <h1>Contactanos</h1>
@@ -69,32 +106,86 @@
                 <p>@Elite_Pet</p>
             </section>
         </main>
-        <footer>
-            <div class="seccionIzq">
-                <h3>CONTACTOS:</h3>
-                <p>📧 Info@elitepet.com.ar</p>
-                <p>🏚️ Diaz Colodrero 3442, C.A.B.A., Argentina</p>
-                <p>📞 011 1234 5678</p>
+
+        
+
+        <!--footer-->
+
+        <footer class="bg-main contenedorFooter">
+            <div class="container">
+                <div class="row">
+                    <!-- Sector Contactos -->
+                    <div class="col-lg-4">
+                        <strong>
+                            <h3 class="text-center">Contactos</h3>
+                        </strong>
+                        <div class="contanc mt-lg-5">
+                            <ul class="">
+                                <li class=" telefono contancItem">
+                                    <i class="bi bi-telephone-plus"></i>
+                                    <b>+54 11 6403 9989</b>
+                                </li>
+                                <li class="contancItem">
+                                    <i class="bi bi-geo-fill"></i>
+                                    <a href="https://www.google.com/maps" target="_blank"><b>Diaz Colodrero 3442, C.A.B.A.</b></a>
+                                </li>
+                                <li class="contancItem">
+                                    <i class="bi bi-envelope-open"></i>
+                                    <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">info@elitepet.com.ar</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <!-- Sector Menú Footer -->
+                    <div class="col-lg-4">
+                        <strong>
+                            <h3 class="text-center">Menú</h3>
+                        </strong>
+                        <div class="footer">
+                            <ul class="nav flex-column align-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html"><i class="bi bi-chevron-bar-right"></i>Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="conocenos.html" target="_blank"><i class="bi bi-chevron-bar-right"></i>Conocenos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="galeria.html" target="_blank"><i class="bi bi-chevron-bar-right"></i>Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="preguntas.html" target="_blank"><i class="bi bi-chevron-bar-right"></i>Preguntas Frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html" target="_blank"><i class="bi bi-chevron-bar-right"></i>Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sector Redes Sociales -->
+                    <div class="col-lg-4">
+                        <strong>
+                            <h3 class="text-center">Redes Sociales</h3>
+                        </strong>
+                        <div class="me-4 redes">
+                            <ul class="redesSociales list-inline">
+                                <li class="list-inline-item">
+                                    <a class="redesItem" href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="redesItem" href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="redesItem" href="https://github.com/fernandoacosta03" target="_blank"><i class="bi bi-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Parrafo Footer -->
+                <p class="text-center mt-4">Desarrollado por Fernando &copy; 2023</p>
             </div>
-            <div class="seccionMedio">
-                <h2 class="titlBottom">ElitePet 🐾</h2>
-            <nav class="menuBottom">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./conocenos.html">Conocenos</a></li>
-                    <li><a href="./galeria.html">Galeria</a></li>
-                    <li><a href="./preguntas.html">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>    
-            <p>Copyright © 2023 - Desarrollado por Fernando</p>
-            </div>
-            <div class="seccionDerecha">
-                <p><a href="https://www.instagram.com">@Elite_Pet</a></p>  
-                <p><a href="https://www.instagram.com">@Elite_Pet</a></p>  
-                <p><a href="https://www.instagram.com">@Elite_Pet</a></p>
-            </div> 
-         </footer>
+        </footer>
+
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
         crossorigin="anonymous"></script>
