@@ -25,7 +25,14 @@
     font-family: 'poppins', 'Inter', sans-serif ;
   }
   
-  
+  .tituloModelos {
+    font-family: 'poppins', 'Inter', sans-serif;
+    color: #cf7d02;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
   
   
   /* Header */
@@ -303,15 +310,11 @@
   
   ---------------------------------/*Galeria*/----------------------------------------
   
-  .tituloModelos {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #cf7d02;
-    margin-bottom: 20px;
-    text-align: center;
-  }
   
+  .imgPresidente{
+    height: 400px;
+  }
+
   .seccionModelos1 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
@@ -399,10 +402,7 @@
     font-weight: 400;
   }
   
-  .seccionEjecutivo img {
-    height: 800px;
-    width: 700px;
-  }
+  
   
   ------------------------------/*Preguntas frecuentes*/------------------------------------------
   .seccionTituloFAQ h1{
