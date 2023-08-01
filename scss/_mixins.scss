@@ -1,0 +1,10 @@
+@mixin h2demodelos {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $titlecolor;
+}
+
+@mixin pdemodelos {
+    font-size: 1rem;
+    font-weight: 400;
+}

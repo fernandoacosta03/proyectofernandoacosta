@@ -4,6 +4,12 @@
 
 /*#A0C49D, #C4D7B2, #E1ECC8, #F7FFE5*/
 
+  /*Variables generales*/
+
+  $firstcolor: #42aa55;
+  $secondcolor: #E1ECC8;
+  $titlecolor: #cf7d02;
+
 
 /* Reset styles */
 * {
@@ -24,12 +30,12 @@
   
   
   body {
-    background-color: #E1ECC8;
-    font-family: 'poppins', 'Inter', sans-serif ;
+    background-color: $secondcolor;
+    font-family: 'poppins', 'Inter', sans-serif;
   }
   
   h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: #cf7d02;
@@ -37,4 +43,5 @@
     margin-bottom: 20px;
     text-align: center;
   }
+
 

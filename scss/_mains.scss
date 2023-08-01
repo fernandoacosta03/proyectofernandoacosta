@@ -15,9 +15,9 @@
   
   .botonPag{
     display: inline-block;
-    background-color: #42aa55;
+    background-color: $firstcolor;
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
     font-size: 1rem;
     font-weight: 700;
     padding: 10px 20px;
@@ -67,7 +67,7 @@
   
   .tituloConocenos h1 {
     font-size: 2rem;
-    color: #cf7d02;
+    color: $titlecolor;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
@@ -87,15 +87,15 @@
   }
   
   .nuestraEmpresa h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #cf7d02;
+    color: $titlecolor;
     margin-bottom: 10px;
   }
   
   .nuestraEmpresa p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
@@ -119,15 +119,15 @@
   }
   
   .seccionVideo h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #cf7d02;
+    color: $titlecolor;
     margin-bottom: 10px;
   }
   
   .seccionVideo p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
@@ -149,20 +149,20 @@
     height: 400px;
   }
 
-  .seccionModelos1 {
-    font-family: 'Poppins', sans-serif;
+  .seccionModelos1,
+  .seccionModelos2,
+  .seccionModelos3,
+  .seccionEjecutivo {
+    font-family: 'poppins', sans-serif;
     margin-bottom: 20px;
   }
   
   .seccionModelos1 h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #cf7d02;
+    @include h2demodelos;
   }
   
   .seccionModelos1 P {
-    font-size: 1rem;
-    font-weight: 400;
+    @include pdemodelos;
   }
   
   .seccionModelos1 img {
@@ -170,41 +170,28 @@
     width: 500px;
   }
   
-  .seccionModelos2 {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
-  }
-  
+
   .seccionModelos2 h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #cf7d02;
+    @include h2demodelos;
   }
   
   .seccionModelos2 P {
-    font-size: 1rem;
-    font-weight: 400;
+    @include pdemodelos;
   }
   
+
   .seccionModelos2 img {
     height: 500px;
     width: 500px;
   }
   
-  .seccionModelos3 {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
-  }
-  
+
   .seccionModelos3 h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #cf7d02;
+    @include h2demodelos;
   }
   
   .seccionModelos3 P {
-    font-size: 1rem;
-    font-weight: 400;
+    @include pdemodelos;
   }
   
   .seccionModelos3 img {
@@ -212,28 +199,21 @@
     width: 700px;
   }
   
+
   .tituloEjecutivos {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #cf7d02;
-    margin-bottom: 20px;
-  }
-  
-  .seccionEjecutivo {
-    font-family: 'Poppins', sans-serif;
+    color: $titlecolor;
     margin-bottom: 20px;
   }
   
   .seccionEjecutivo h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #cf7d02;
+    @include h2demodelos;
   }
   
   .seccionEjecutivo P {
-    font-size: 1rem;
-    font-weight: 400;
+    @include pdemodelos;
   }
   
   
@@ -242,22 +222,22 @@
   
   
   .seccionTituloFAQ p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     margin-bottom: 20px;
     font-size: 1rem;
     font-weight: 400;
   }
   
   .seccionFAQ  div h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1,5rem;
     font-weight: 700;
-    color: #cf7d02;
+    color: $titlecolor;
     margin-bottom: 20px;
   } 
   
   .seccionFAQ div p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     margin-bottom: 20px;
     font-size: 1rem;
     font-weight: 400;
@@ -267,17 +247,17 @@
   
   
   .seccionFormulario p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     margin-bottom: 20px;
     font-size: 1rem;
     font-weight: 400;
   }
   
   .seccionFormulario h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1,5rem;
     font-weight: 700;
-    color: #cf7d02;
+    color: $titlecolor;
     margin-bottom: 20px;
   }
   
