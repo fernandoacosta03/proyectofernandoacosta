@@ -1,0 +1,52 @@
+/*footer*/
+  
+.contenedorFooter   {
+    margin-bottom: -20px ;
+  }
+  
+  .redesSociales {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  .contanc {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contancItem {
+    padding-bottom: 10px;
+  }
+  
+  .redesItem {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .telefono {
+    color: black;
+  }
+  
+  
+  .footer .nav-link {
+    color: black;
+    transition: .3s;
+  }
+  
+  .footer .footer-link a::before {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  
+  .footer .footer-link a:hover {
+    color: #1d5026;
+    letter-spacing: 1px;
+  }
+  
+  .footer .nav-link:hover {
+    color: #1d5026;
+    letter-spacing: 1px;
+  }

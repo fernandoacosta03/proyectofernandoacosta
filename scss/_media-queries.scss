@@ -1,0 +1,97 @@
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+    .logo {
+    width: 50px;
+    height: 50px;
+  }
+    .bannerPrincipal img {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .seccionFormulario iframe {
+    width: 100%;
+    height: 250px;
+  }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .align-items-lg-center {
+      align-items: flex-start;
+    }
+    
+    .align-items-lg-center > .col-lg-6 {
+      flex-basis: 100%;
+  
+    }
+  
+    .tituloConocenos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .seccionVideo .row {
+      flex-direction: column;
+    }
+    
+    .nuestraEmpresa .col-lg-8
+    .seccionVideo .col-lg-6 {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width:992px){
+    .imgConocenos img {
+      max-width: 50%;
+    }
+  
+    .redes {
+      margin-top: 60px;
+    }
+
+    .seccionFormulario iframe {
+      width: 500px;
+      height: 300px;
+    }
+  }
+
+  @media screen and (min-width: 412px) { 
+    .formularioContacto {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  
+    .formularioContacto input[type="text"],
+    .formularioContacto input[type="email"],
+    .formularioContacto textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    .formularioContacto textarea {
+      resize: vertical;
+    }
+  
+    .formilarioBotones input[type="reset"],
+    .formilarioBotones input[type="submit"] {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff6600;
+      color: #fff;
+    }
+  
+    .formilarioBotones input[type="reset"] {
+      background-color: #bbb;
+      color: #fff;
+    }
+
+    
+  }

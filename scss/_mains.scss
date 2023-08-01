@@ -1,0 +1,325 @@
+/* ------------------------!main INDEX------------------------*/
+  
+  
+.carousel-caption {
+    z-index: 1;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231d5026'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231d5026'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  
+  .botonPag{
+    display: inline-block;
+    background-color: #42aa55;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .imgUnirse img {
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    border: 5px solid #1d5026;
+    border-radius: 5px;
+  }
+  
+  .slide-top {
+    -webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  @keyframes slide-top {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+  }
+
+/* ------------------------!main Conocenos------------------------*/
+  
+  .nuestraEmpresa h2,
+  .nuestraEmpresa p {
+    text-align: left;
+  }
+  
+  
+  
+  .tituloConocenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .tituloConocenos h1 {
+    font-size: 2rem;
+    color: #cf7d02;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tituloConocenos img {
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+  }
+  
+  .nuestraEmpresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nuestraEmpresa h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 10px;
+  }
+  
+  .nuestraEmpresa p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .nuestraEmpresa strong {
+    color: black;
+  }
+  
+  .nuestraEmpresa img {
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+  }
+  
+  .seccionVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .seccionVideo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 10px;
+  }
+  
+  .seccionVideo p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .seccionVideo strong {
+    color: black;
+  }
+  
+  .seccionVideo iframe {
+    width: 800px;
+    height: 500px;
+  }
+
+/*------------------------Galeria------------------------*/
+  
+  
+  .imgPresidente{
+    height: 400px;
+  }
+
+  .seccionModelos1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos1 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos1 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos1 img {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .seccionModelos2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos2 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos2 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos2 img {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .seccionModelos3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionModelos3 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionModelos3 P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionModelos3 img {
+    height: 500px;
+    width: 700px;
+  }
+  
+  .tituloEjecutivos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  }
+  
+  .seccionEjecutivo {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .seccionEjecutivo h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cf7d02;
+  }
+  
+  .seccionEjecutivo P {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  
+  
+/*------------------------Preguntas frecuentes------------------------*/
+  
+  
+  .seccionTituloFAQ p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionFAQ  div h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  } 
+  
+  .seccionFAQ div p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+/*------------------------contactos------------------------*/
+  
+  
+  .seccionFormulario p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .seccionFormulario h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: #cf7d02;
+    margin-bottom: 20px;
+  }
+  
+  .seccionFormulario iframe {
+    border: 2px solid #1d5026;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  } 
+  
+  
+  .formularioContacto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .formularioContacto input[type="text"],
+  .formularioContacto input[type="email"],
+  .formularioContacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .formularioContacto textarea {
+    resize: vertical;
+  }
+
+  .formilarioBotones input[type="reset"],
+  .formilarioBotones input[type="submit"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+  }
+
+  .formilarioBotones input[type="reset"] {
+    background-color: #bbb;
+    color: #fff;
+  }
+
